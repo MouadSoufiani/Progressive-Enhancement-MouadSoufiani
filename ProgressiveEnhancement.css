@@ -1,0 +1,63 @@
+.Bigtekst{
+    font-family: "Serif" ;
+    color: darkblue;
+    word-spacing: 10px;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+Body {
+    max-width: 90%;
+    margin: auto;
+    background: linear-gradient(119deg, rgb(248, 241, 118), rgb(227, 252, 95));
+}
+
+q {
+    font-size: 160%;
+    font-style: italic;
+    background-color: #ebebeb;
+    border-left: 3px dashed red;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: -webkit-inline-flex;
+}
+
+.villager {
+    border-left: 3px dashed red;
+}
+.Farmer{
+    border-left: 3px dashed blue;
+}
+
+.Verhaal{
+    background-color: yellow;
+}
+
+.Bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+.Good{
+    text-transform: capitalize;
+    color: green;
+}
+table{
+    background-color: grey;
+    border: 3px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.First{
+    font-weight: bold;
+}
+
+img {
+    float: right;
+}
